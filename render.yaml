@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: chengxin-mood-care
+    runtime: static
+    buildCommand: echo "Static site ready"
+    staticPublishPath: ./dist
